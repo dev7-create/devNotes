@@ -156,7 +156,7 @@ Clone apps based on staging info:
 bench get-app app_name --branch version-15
 ```
 
-Then install on site:
+Then install on site (not required if using bench restore):
 
 ```bash
 bench --site site-name-local install-app app_name
